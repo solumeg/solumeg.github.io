@@ -49,3 +49,23 @@ En GitHub:
 La URL pública será:
 
 https://solumeg.github.io/
+
+## Actualización del contenido (19 de octubre de 2026)
+
+Esta entrega conserva la arquitectura HTML y la navegación del sitio anterior.
+Se actualizó con el documento corregido de las memorias del IV Encuentro
+Pedagógico (DOCX y PDF proporcionados para esta revisión):
+
+- Portada actualizada según la primera página del PDF revisado.
+- Texto revisado incorporado en los apartados desplegables de los capítulos
+  correspondientes, manteniendo los resúmenes editoriales y el recorrido visual.
+- Actualización de horizontes, tensiones, fecha y datos del PDF.
+- Agenda del evento consultable dentro de la lectura íntegra del capítulo 1.
+- PDF de **49 páginas**, idéntico al archivo entregado, disponible desde todos
+  los enlaces de descarga existentes en `docs/memoria-iv-encuentro-pedagogico.pdf`.
+
+### Para actualizar el sitio ya publicado
+
+Reemplaza en la **raíz de `main`** el contenido de los archivos de este paquete.
+No subas el ZIP sin descomprimir y no coloques una carpeta contenedora por encima
+de `index.html`. GitHub Pages publicará los cambios al completar el despliegue.

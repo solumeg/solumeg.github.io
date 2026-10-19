@@ -537,3 +537,88 @@ a{color:inherit}
   color:var(--muted);
   background:linear-gradient(180deg,#fff,#faf6ef);
 }
+
+
+/* Desarrollo textual actualizado a partir de la memoria revisada.
+   Los desplegables preservan la navegación y el recorrido editorial originales. */
+.source-reading-section{
+  background:var(--paper-2);
+  padding-top:48px;
+  padding-bottom:96px;
+  border-top:1px solid var(--line);
+}
+.reading-collection{max-width:900px;margin:44px auto 0;}
+.reading-collection-label{
+  font-size:.8rem;text-transform:uppercase;letter-spacing:.13em;
+  font-weight:850;color:var(--teal-dark);margin:0 0 8px;
+}
+.reading-collection-intro{color:var(--muted);margin:0 0 24px;}
+.source-reading{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:18px;
+  margin:12px 0;
+  overflow:hidden;
+  box-shadow:0 3px 18px rgba(12,39,64,.035);
+}
+.source-reading>summary{
+  cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:12px;
+  padding:20px 24px;transition:background .18s ease;
+}
+.source-reading>summary::-webkit-details-marker{display:none;}
+.source-reading>summary:hover,
+.source-reading>summary:focus-visible{background:#f4f9f7;outline-offset:-3px;}
+.reading-tag{
+  color:var(--teal-dark);font-weight:800;
+  font-size:.72rem;letter-spacing:.03em;
+  flex:0 0 160px;
+}
+.reading-title{
+  color:var(--ink);font-size:1.06rem;line-height:1.45;
+  font-weight:750;flex:1;
+}
+.reading-caret{
+  font-size:1.45rem;color:var(--teal-dark);
+  transition:transform .2s ease;
+}
+.source-reading[open] .reading-caret{transform:rotate(180deg);}
+.reading-prose{
+  padding:12px clamp(18px,4vw,42px) 32px;
+  border-top:1px solid var(--line);
+  max-height:none;
+  color:var(--ink);
+}
+.reading-prose h3{
+  font-size:clamp(1.12rem,2vw,1.45rem);
+  margin:32px 0 16px;
+  line-height:1.35;
+}
+.reading-prose p,.reading-prose li{
+  font-size:1rem;
+  line-height:1.8;
+  overflow-wrap:break-word;
+}
+.reading-prose p{margin:0 0 16px;}
+.reading-prose ul{padding-left:1.5rem;margin:12px 0 25px;}
+.reading-prose li{margin-bottom:11px;}
+.reading-prose a{color:var(--teal-dark);text-underline-offset:3px;}
+.reading-prose .reading-note{
+  font-size:.89rem;
+  color:var(--muted);
+  background:var(--paper);
+  border-radius:12px;padding:15px 18px;
+  margin:10px 0 24px;
+}
+@media (max-width:700px){
+  .source-reading>summary{align-items:flex-start;flex-wrap:wrap;padding:18px;}
+  .reading-tag{flex:1 1 100%;}
+  .reading-title{font-size:1rem;}
+}
+
+.agenda-wrap{max-width:100%;overflow-x:auto;margin:24px 0 28px;}
+.agenda-table{width:100%;border-collapse:collapse;min-width:540px;line-height:1.55;font-size:.91rem;}
+.agenda-table caption{text-align:left;font-weight:800;margin:0 0 12px;color:var(--teal-dark);}
+.agenda-table th,.agenda-table td{text-align:left;padding:10px 12px;border:1px solid var(--line);vertical-align:top;}
+.agenda-table thead th{background:#e9f3ef;}
+.agenda-table .agenda-group th{background:#eff3f9;color:var(--ink);text-align:center;}

@@ -47,3 +47,17 @@ Settings → Pages → Deploy from a branch → main → / (root)
 ## Nota
 
 No compartas tu contraseña ni un token de acceso en el chat.
+
+## Actualización de un repositorio existente
+
+Si el sitio `https://solumeg.github.io/` ya está publicado, **no es necesario
+crear otro repositorio**. Descomprime el ZIP, reemplaza los archivos modificados
+en la raíz de `solumeg.github.io` y confirma los cambios en la rama que publica
+GitHub Pages. En particular, reemplaza también:
+
+- `docs/memoria-iv-encuentro-pedagogico.pdf` (PDF corregido);
+- `assets/portada-iv-encuentro.png` (portada de la versión corregida);
+- `styles.css` y las páginas HTML actualizadas.
+
+Cuando termine el despliegue, comprueba el botón «Descargar memoria (PDF)»
+y la versión de 49 páginas del documento.
