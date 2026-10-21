@@ -1,71 +1,34 @@
-# solumeg.github.io — IV Encuentro Pedagógico
+# IV Encuentro Pedagógico · SENA Regional Valle
 
-Sitio web de la memoria narrativa y sistematización del:
+**Enseñanza, Tecnología y Humanidad en esto de ser instructor(a)**
 
-**IV Encuentro Pedagógico: Enseñanza, Tecnología y Humanidad en esto de ser instructor(a)**
+Memorias del encuentro realizado el 9 de julio de 2026 en Cali, por el Equipo Regional de Formadores de Instructores del SENA Regional Valle.
 
-Servicio Nacional de Aprendizaje — SENA  
-Regional Valle  
-Equipo regional de formadores de instructores  
-2026
+## Lectura del sitio
 
-## Publicación prevista
+El sitio presenta los capítulos del documento de memorias con sus apartados:
 
-Repositorio: `solumeg/solumeg.github.io`
+1. La pregunta que convoca al encuentro.
+2. Las voces del Encuentro.
+3. Eje enseñanza: volver a preguntarse qué significa enseñar.
+4. Eje tecnología: pensar la inteligencia artificial más allá de la herramienta.
+5. Eje Humanidad: cuerpo, emoción, lenguaje y experiencia de ser instructor(a).
+6. Encuentro de los tres ejes.
+7. Coincidencias, diferencias y tensiones.
+8. Las claves que deja el Encuentro.
+9. Horizontes para seguir pensando la práctica del instructor.
 
-URL esperada:
+También se presentan la exposición fotográfica EntreVistas, la evaluación del evento, la presentación, las fuentes del relato y los documentos completos.
 
-https://solumeg.github.io/
+## Documentos completos
 
-## Estructura
+- `docs/memoria-iv-encuentro-pedagogico.pdf`: memorias en PDF (62 páginas).
+- `docs/memorias-iv-encuentro-pedagogico.docx`: documento original de las memorias en Word.
 
-El sitio es completamente estático (HTML, CSS y JavaScript), no requiere compilación
-y está preparado para publicarse directamente desde la raíz de la rama `main`.
+## Publicación
 
-Incluye:
+Sitio estático con HTML, CSS y JavaScript, listo para alojarse en GitHub Pages. La página principal es `index.html`; las carpetas `assets`, `ejes`, `data` y `docs` son necesarias para su funcionamiento.
 
-- página de inicio narrativa;
-- ejes Enseñanza, Tecnología y Humanidad;
-- cruces y tensiones;
-- sección de Memorias;
-- exposición EntreVistas;
-- evaluación y voces;
-- metodología de la sistematización;
-- documento PDF completo descargable.
+Para publicar en `solumeg.github.io`, incorpora **todos los archivos y carpetas de este paquete** en la raíz de la rama que sirve GitHub Pages (habitualmente `main`). El archivo `.nojekyll` está incluido.
 
-## GitHub Pages
-
-El archivo `.nojekyll` ya está incluido.
-
-En GitHub:
-
-1. crear el repositorio público `solumeg.github.io`;
-2. cargar el contenido de esta carpeta en la raíz del repositorio;
-3. ir a **Settings → Pages**;
-4. en **Build and deployment**, elegir **Deploy from a branch**;
-5. seleccionar `main` y `/ (root)`;
-6. guardar.
-
-La URL pública será:
-
-https://solumeg.github.io/
-
-## Actualización del contenido (19 de octubre de 2026)
-
-Esta entrega conserva la arquitectura HTML y la navegación del sitio anterior.
-Se actualizó con el documento corregido de las memorias del IV Encuentro
-Pedagógico (DOCX y PDF proporcionados para esta revisión):
-
-- Portada actualizada según la primera página del PDF revisado.
-- Texto revisado incorporado en los apartados desplegables de los capítulos
-  correspondientes, manteniendo los resúmenes editoriales y el recorrido visual.
-- Actualización de horizontes, tensiones, fecha y datos del PDF.
-- Agenda del evento consultable dentro de la lectura íntegra del capítulo 1.
-- PDF de **49 páginas**, idéntico al archivo entregado, disponible desde todos
-  los enlaces de descarga existentes en `docs/memoria-iv-encuentro-pedagogico.pdf`.
-
-### Para actualizar el sitio ya publicado
-
-Reemplaza en la **raíz de `main`** el contenido de los archivos de este paquete.
-No subas el ZIP sin descomprimir y no coloques una carpeta contenedora por encima
-de `index.html`. GitHub Pages publicará los cambios al completar el despliegue.
+Consulta `DEPLOYMENT.md` para los pasos de publicación.
