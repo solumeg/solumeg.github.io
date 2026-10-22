@@ -1,0 +1,46 @@
+{
+  "responses": 17,
+  "roles": [
+    {
+      "label": "Formador de formadores",
+      "count": 10,
+      "percent": 58.8
+    },
+    {
+      "label": "Funcionario SENA",
+      "count": 3,
+      "percent": 17.6
+    },
+    {
+      "label": "Instructor asistente",
+      "count": 3,
+      "percent": 17.6
+    },
+    {
+      "label": "Ponente",
+      "count": 1,
+      "percent": 5.9
+    }
+  ],
+  "ratings": [
+    {
+      "label": "Satisfacción",
+      "average": 4.88,
+      "five_count": 15,
+      "n": 17
+    },
+    {
+      "label": "Organización",
+      "average": 4.76,
+      "five_count": 13,
+      "n": 17
+    },
+    {
+      "label": "Pertinencia",
+      "average": 4.94,
+      "five_count": 16,
+      "n": 17
+    }
+  ],
+  "note": "Los datos corresponden a 17 formularios de evaluación recibidos y no representan necesariamente a la totalidad de asistentes."
+}
